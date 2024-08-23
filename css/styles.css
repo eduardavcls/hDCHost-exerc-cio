@@ -1,0 +1,372 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+
+    padding: 10px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar-items {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.navbar-items li a {
+    color: #eeee;
+
+    text-transform: uppercase;
+}
+
+#login-btn {
+    background-color: #2cc76a;
+    color: #fff;
+
+    border-radius: 4px;
+
+    padding: 16px 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    background-color: #2cc76a;
+}
+
+.bannerTitle{
+    
+height: 450px;
+    background-image: url("../img/mainbanner.png");
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    gap: 8px;
+    justify-content: center;
+}
+
+.bannerTitle h1{
+
+    font-size: 54px;
+    color: #f8f5f5;
+    text-align: center;
+     
+}
+
+.bannerTitle p{
+
+    color: #f7f3f3;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.benefits{
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.benefits i{
+font-size: 50px;
+
+}
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.informations li{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.informacoes h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.informacoes p {
+    font-size: 18px;
+    color: #70747a;
+}
+
+.fa-shield-alt {
+    color: #2cc76a
+}
+
+.fa-rocket {
+    color: rgb(225, 36, 36)
+}
+
+.fa-comments {
+    color: rgb(9, 188, 0);
+}
+
+.plans_prices h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 32px;
+
+}
+
+.plans_prices h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #626468;
+    font-style: italic;
+   
+}
+
+.allPlans{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    gap: 48px;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+ .allPlans li{
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     align-items: center;
+     justify-content: content;
+     width: 350px;
+     border-radius: 15%;
+     background-color: #eae4e4
+ 
+}
+
+.prices {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction:column;
+    color: #fff;
+    font-weight:bold;
+    background-color: #287747;
+    border-radius: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.allPlans li header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    gap: 8px;
+    background-color: #252525;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.allPlans li h2 {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-button {
+    background-color:#287747;
+    width: 100%;
+    padding: 24px;
+    gap: 8px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.search-dominio {
+    padding: 25px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a5959;
+    height: 300px;
+}
+
+.search-dominio h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    gap: 8px;
+
+}
+
+.search-dominio h4{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    color: #c0c0c0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.search-dominio form button {
+    display: flex;
+    flex-direction: column;
+    background-color: #287747;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    cursor:grab;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.search-dominio form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 24px 8px;
+    margin: 8px 8;
+    padding: 20px;
+}
+
+.search-dominio form input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 52px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px 0;
+    border:#000000;
+   
+}
+
+.final-informations {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.final-informations h3 {
+    color: #fff;
+    font-size: 32px;
+    padding: 8px 16px;
+}
+
+.final-informations h4 {
+    color: #908e8e;
+    font-size: 18px;
+    padding: 8px 8px;
+    gap: 8px;
+}
+
+.final-informations button {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #287747;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+    
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 8px 20px;
+    height: 110px;
+    width: 60%;
+    margin-top: 10;
+   
+}
+
+.name-email input {
+    display: flex;
+    flex-direction:column;
+    margin-top: -70px;
+    width: 600%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    text-align:center;
+    background-color: #dbdbdb;
+}
+
+.send-email input {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    width: 600px;
+    height: 150px;
+    border-radius: 4px;
+    border: #000000;
+    background-color: #dbdbdb;
+    }
+    
+
